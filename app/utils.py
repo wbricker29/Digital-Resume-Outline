@@ -15,7 +15,7 @@ def intersection_observer() -> rx.Component:
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
                         _reflex.call_event(
-                            "state.resume_state.set_active_section",
+                            "resume_state.set_active_section",
                             { section_id: entry.target.id }
                         );
                     }
