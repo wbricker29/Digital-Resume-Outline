@@ -30,4 +30,4 @@ app = rx.App(
         ),
     ],
 )
-app.add_page(index, title="Will Bricker - Digital Resume")
+app.add_page(index, title="Will Bricker - Digital Resume", on_load=ResumeState.on_load)
