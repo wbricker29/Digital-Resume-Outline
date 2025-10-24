@@ -30,6 +30,10 @@ class ResumeState(rx.State):
     @rx.event
     def scroll_to(self, section_id: str):
         """Scroll to a specific section."""
+        if section_id == "chat-window":
+            return rx.call_script(
+                "document.getElementById('chat-window').lastChild.scrollIntoView({ behavior: 'smooth', block: 'end' })"
+            )
         return rx.call_script(
             f"document.getElementById('{section_id}').scrollIntoView({{behavior: 'smooth'}})"
         )

@@ -27,23 +27,28 @@ def scroll_indicator(target_id: str) -> rx.Component:
     )
 
 
-def chat_message(text: str) -> rx.Component:
+def chat_message(text: str, index: int) -> rx.Component:
     """A chat message bubble."""
     is_user_message = text.startswith("You: ")
     display_text = rx.cond(is_user_message, text[5:], text[4:])
+    is_last_message_streaming = (
+        index == ChatState.messages.length() - 1
+    ) & ChatState.is_streaming
     return rx.el.div(
-        rx.el.p(
-            display_text,
-            class_name=rx.cond(
-                is_user_message,
-                "text-sm text-white",
-                "text-sm text-gray-700 whitespace-pre-wrap",
-            ),
+        rx.el.div(
+            rx.markdown(
+                display_text + rx.cond(is_last_message_streaming, " █", ""),
+                class_name=rx.cond(
+                    is_user_message,
+                    "text-sm text-white",
+                    "text-sm text-gray-700 prose prose-sm max-w-none",
+                ),
+            )
         ),
         class_name=rx.cond(
             is_user_message,
-            "bg-teal-500 rounded-lg px-4 py-2 self-end max-w-lg",
-            "bg-gray-200 rounded-lg px-4 py-2 self-start max-w-lg",
+            "bg-teal-500 rounded-xl px-4 py-2 self-end max-w-2xl",
+            "bg-gray-200 rounded-xl px-4 py-2 self-start max-w-2xl",
         ),
     )
 
@@ -89,12 +94,12 @@ def intro_section() -> rx.Component:
             rx.el.div(
                 rx.el.div(
                     rx.el.div(
-                        rx.el.p(
-                            "Ask me anything about my experience or projects.",
-                            class_name="text-center text-sm text-gray-500",
+                        rx.foreach(
+                            ChatState.messages,
+                            lambda msg, index: chat_message(msg, index),
                         ),
-                        rx.foreach(ChatState.messages, chat_message),
                         class_name="flex-grow flex flex-col p-4 space-y-4 overflow-y-auto",
+                        id="chat-window",
                     ),
                     rx.el.form(
                         rx.el.input(
