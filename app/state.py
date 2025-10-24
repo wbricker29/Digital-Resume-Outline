@@ -1,13 +1,13 @@
 import reflex as rx
 from typing import Literal
 
-ActiveTab = Literal["details", "artifacts"]
+ActiveTab = Literal["intro", "details", "artifacts"]
 
 
 class ResumeState(rx.State):
     """The state for the resume app."""
 
-    active_tab: ActiveTab = "details"
+    active_tab: ActiveTab = "intro"
     active_section: str = "intro"
     chat_input: str = ""
     messages: list[str] = []
@@ -16,7 +16,9 @@ class ResumeState(rx.State):
     def set_active_section(self, section_id: str):
         """Set the active section and update tab."""
         self.active_section = section_id
-        if section_id in ["intro", "about"]:
+        if section_id == "intro":
+            self.active_tab = "intro"
+        elif section_id == "about":
             self.active_tab = "details"
         else:
             self.active_tab = "artifacts"
@@ -32,7 +34,12 @@ class ResumeState(rx.State):
     def set_active_tab(self, tab: ActiveTab):
         """Set the active navigation tab."""
         self.active_tab = tab
-        section_id = "about" if tab == "details" else "artifacts"
+        if tab == "intro":
+            section_id = "intro"
+        elif tab == "details":
+            section_id = "about"
+        else:
+            section_id = "artifacts"
         return ResumeState.scroll_to(section_id)
 
     @rx.event

@@ -20,6 +20,7 @@ def nav_button(text: str, tab_name: str) -> rx.Component:
 def navigation() -> rx.Component:
     """The main navigation component with tabs."""
     return rx.el.div(
+        nav_button("Intro", "intro"),
         nav_button("Details", "details"),
         nav_button("Artifacts", "artifacts"),
         class_name="flex items-center p-1 space-x-1 bg-gray-100/50 rounded-xl border border-gray-200",
