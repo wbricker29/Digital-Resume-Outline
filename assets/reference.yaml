@@ -1,0 +1,522 @@
+metadata:
+  document_type: professional_profile
+  version: "2.2"
+  last_updated: "2025-10-23"
+  subject: Will Bricker - AI Strategy & Product Leadership Professional
+  purpose: Comprehensive resume and professional profile optimized for RAG retrieval
+  sections:
+    - metadata
+    - resume
+    - professional_profile
+
+resume:
+  person: Will Bricker
+  section_id: resume_root
+  content_type: "resume.root"
+
+  personal_info:
+    section_id: personal_info
+    content_type: "resume.personal_info"
+    name: Will Bricker
+    title: AI Strategy & Product Leadership | Financial Services Technology Expert
+    location: New York, NY
+    email: wbricker3@gmail.com
+    linkedin: linkedin.com/in/wbricker3
+
+  professional_summary:
+    section_id: professional_summary
+    content_type: "resume.summary"
+    tags: [ai_strategy, business_transformation, quantitative_investment, product_development, generative_ai]
+    text: |
+      Strategic AI and business transformation leader with 10+ years of experience bridging elite quantitative investment (Bridgewater, J.P. Morgan), technology innovation, and AI product development. Proven track record architecting AI transformation strategies, leading cross-functional teams, and deploying generative technology solutions that deliver measurable business impact across $1T+ AUM investment operations.
+
+  core_competencies:
+    section_id: core_competencies
+    content_type: "resume.core_competencies"
+
+    domain_expertise:
+      section_id: domain_expertise
+      content_type: "resume.core_competencies.domain_expertise"
+      tags: [finance, investment, portfolio_management, alternative_investments]
+      skills:
+        - Quantitative Investment Management
+        - Portfolio Construction & Optimization
+        - Investment Operations
+        - Financial Modeling & Due Diligence Analysis
+        - Alternative Investments
+        - Investment Technology
+
+    ai_and_ml_capabilities:
+      section_id: ai_ml_capabilities
+      content_type: "resume.core_competencies.ai_ml_capabilities"
+      tags: [ai, machine_learning, llm, generative_ai, rag, agents, mlops]
+      skills:
+        - AI Strategy Development
+        - Generative AI & LLM Engineering
+        - Machine Learning & Predictive Analytics
+        - AI Agent & RAG Development
+        - MLOps
+
+    leadership_and_business:
+      section_id: leadership_business
+      content_type: "resume.core_competencies.leadership_business"
+      tags: [product_management, leadership, gtm_strategy, entrepreneurship, operations]
+      skills:
+        - Product Development & Management
+        - Go-to-Market Strategy
+        - Cross-Functional Team Leadership
+        - Entrepreneurship & Startup Advising
+        - Operations Automation
+        - Business Development
+
+    technical_skills:
+      section_id: technical_skills
+      content_type: "resume.core_competencies.technical_skills"
+      tags: [python, sql, apis, langchain, devops, data_engineering]
+      skills:
+        - Python (expert level - idiomatic, modular, test-driven)
+        - SQL & Data Engineering
+        - APIs & System Integration
+        - AI/ML Frameworks (LangChain, LangGraph, DSPy)
+        - Data Orchestration & Analytics
+        - DevOps & Workflow Automation
+        - Advanced Excel & Business Intelligence
+
+  experience:
+    - section_id: exp_invisible_2024
+      content_type: "resume.experience.company"
+      company: INVISIBLE TECHNOLOGIES
+      company_description: AI & Intelligent Operations
+      location: New York, NY
+      tags: [ai, financial_services, rag, agents, llm, product_leadership, solution_architecture]
+      positions:
+        - section_id: exp_invisible_2024_head
+          content_type: "resume.experience.role"
+          title: Head of Financial Services Solutions
+          start: 06-01-2024
+          end: 04-01-2025
+          achievements:
+            - Designed AI-powered product offering and go-to-market strategy for financial services, achieving 4x revenue growth and 10% margin improvement within 6 months
+            - Oversaw solutions architecture team designing and delivering products across financial services verticals, including development of first LLM Agent solution - an M&A transaction researcher that found 20% more transactions than top industry data providers
+            - Co-led R&D lab charged with designing AI agent transformation roadmap, and built the lab's first AI agent prototype achieving 90% reduction in average handling time for LLM training data evaluation
+
+        - section_id: exp_invisible_2024_arch
+          content_type: "resume.experience.role"
+          title: Senior Solution Architect
+          start: 06-01-2024
+          end: 04-01-2025
+          achievements:
+            - Led cross-functional product development of generative AI features for enterprise platform, including technical design and implementation of document-based RAG systems and AI Agent web research modules
+            - Architected, built, and deployed AI solutions across complete investment lifecycle for leading investment firms managing $1T+ AUM, including portfolio construction engine for first LLM-enabled ETF delivered in 1 month
+
+    - section_id: exp_hustle_2021_2023
+      content_type: "resume.experience.company"
+      company: HUSTLE FUND
+      company_description: $100M+ AUM Pre-Seed VC Fund
+      location: New York, NY
+      tags: [venture_capital, fintech, ai_investments, data_analytics, due_diligence, operations]
+      positions:
+        - section_id: exp_hustle_principal
+          content_type: "resume.experience.role"
+          title: Principal Investor
+          start: 01-01-2021
+          end: 12-01-2023
+          achievements:
+            - Led investment technology and analytics, designing proprietary products leveraging data, algorithms, and AI that resulted in recognition as "Leading Data-driven VC" for 3 consecutive years
+            - Owned and engineered complete quantitative overhaul of investment platform, leveraging data and AI to automate due diligence for 500+ deals monthly (50% of total flow) and reducing operational workload by over 70%
+            - Executed $1.2M+ across 20+ pre-seed Fintech/AI investments with ~50% securing follow-on seed funding within 18 months
+
+        - section_id: exp_hustle_interim_coo
+          content_type: "resume.experience.role"
+          title: Interim COO (Portfolio Company)
+          company_description: Seed Stage Startup
+          start: 04-01-2020
+          end: 12-01-2020
+          achievements:
+            - Deployed as Interim COO for seed-stage portfolio company, co-leading strategic pivot that secured first enterprise customer in 6 months and scaled to $3M ARR within 18 months
+            - Led product deployment with initial pilot customer, managing onboarding and stakeholder management, resulting in 90% adoption in first 48 hours
+
+    - section_id: exp_bridgewater_2014_2018
+      content_type: "resume.experience.company"
+      company: BRIDGEWATER ASSOCIATES
+      company_description: $100B+ Macro Quant Hedge Fund
+      location: Westport, CT
+      tags: [quantitative_finance, portfolio_construction, people_analytics, machine_learning, process_optimization]
+      positions:
+        - section_id: exp_bw_research_lead
+          content_type: "resume.experience.role"
+          title: Research Lead, Management Systemization Team
+          start: 06-01-2016
+          end: 05-01-2018
+          achievements:
+            - Co-led 10-member cross-functional team architecting scalable people analytics platform, transforming founder's management philosophy into data-driven decision infrastructure spanning 1,600+ employees across all business units
+            - Designed quantitative performance evaluation systems for CEO, leveraging predictive analytics and machine learning algorithms to assess 100+ managers
+
+        - section_id: exp_bw_eng_manager
+          content_type: "resume.experience.role"
+          title: Engineering Manager, Portfolio Construction
+          start: 12-01-2015
+          end: 06-01-2016
+          achievements:
+            - Promoted as youngest department manager leading 6-member engineering team implementing new architecture for calculating daily returns across $160B AUM, reducing calculation time by 80%
+
+        - section_id: exp_bw_chief_of_staff
+          content_type: "resume.experience.role"
+          title: Chief of Staff, Portfolio Construction
+          start: 06-01-2014
+          end: 12-01-2015
+          achievements:
+            - Directed comprehensive analysis and led implementation of CIO's portfolio generation process redesign, reducing operating costs by 20% and shortening process time by 30%
+
+    - section_id: exp_jpmorgan_2012_2014
+      content_type: "resume.experience.company"
+      company: J.P. MORGAN ASSET MANAGEMENT
+      location: New York, NY
+      tags: [asset_management, fixed_income, trading, emerging_markets, operations]
+      positions:
+        - section_id: exp_jpm_chief_of_staff_ficc
+          content_type: "resume.experience.role"
+          title: Chief of Staff, Fixed Income Currencies and Commodities Team
+          start: 12-01-2012
+          end: 06-01-2014
+          achievements:
+            - Promoted within 4 months to partner with group director to unify oversight and sales methodologies for global fixed-income trading operation spanning 100+ professionals across 4 continents, boosting revenue 10% year-over-year
+            - Supervised creation of new cross-asset teams in Mexico and Brazil, designing innovative products and marketing strategies generating 2x increase in cross-asset revenue
+
+        - section_id: exp_jpm_trading_analyst
+          content_type: "resume.experience.role"
+          title: Trading Analyst, Emerging Markets Fixed Income Team
+          start: 06-01-2012
+          end: 12-01-2012
+          achievements:
+            - Researched, marketed, and traded emerging market fixed income products for one of the largest asset management trading operations globally
+
+  projects_and_consulting:
+    - section_id: project_pothos_ventures
+      content_type: "resume.projects.item"
+      title: AI & Automation Consultant
+      organization: Pothos Ventures
+      organization_description: Personal consulting practice
+      start: 01-01-2024
+      tags: [ai_strategy, consulting, investment_funds, startups]
+      scope:
+        - Provide AI strategy consulting and product development services to investment funds and startups, spanning strategic planning to state of the art solution deployment
+
+    - section_id: project_stealth_startup
+      content_type: "resume.projects.item"
+      title: Technical Advisor & Fractional COO
+      organization: Stealth Startup
+      organization_description: Seed Fund-Admin Startup
+      start: 04-01-2025
+      end: 06-01-2025
+      tags: [fractional_cto, product_development, fundraising, mvp, seed_stage]
+      scope:
+        - Owned technical product development, including sourcing fractional CTO and engineers, and designing MVP product features and data architecture
+        - Partnered with founder during fundraising, participating in pitches that resulted in $1M out of total $4M in funding
+
+  education:
+    - section_id: edu_berkeley
+      content_type: "resume.education.item"
+      institution: UC BERKELEY, HAAS SCHOOL OF BUSINESS
+      location: Berkeley, CA
+      degree: Master of Business Administration
+      concentration: Entrepreneurship
+      end: 05-01-2020
+      tags: [mba, entrepreneurship, berkeley, haas]
+      honors:
+        - Skydeck accelerator advisor for AI startups (including Deepscribe, raised $30m Series A in 2022)
+        - Haas Venture Fellow
+
+    - section_id: edu_boston_college
+      content_type: "resume.education.item"
+      institution: BOSTON COLLEGE
+      location: Chestnut Hill, MA
+      degree: Bachelor of Arts
+      major: Economics
+      start: 09-01-2008
+      end: 05-01-2012
+      honors_designation: Cum Laude
+      tags: [economics, cum_laude, boston_college]
+      honors:
+        - Order of the Cross and Crown Honoree
+        - Omicron Delta Epsilon Economic Honor Society
+        - Founder of Enlaces program
+
+professional_profile:
+  person: Will Bricker
+  section_id: professional_profile_root
+  content_type: "profile.root"
+  context: |
+    Will Bricker's professional profile encompasses his working philosophy, technical expertise,
+    leadership approach, and career objectives. This section provides deeper insight into how he
+    thinks, works, and creates value beyond resume accomplishments.
+
+  skills_and_expertise:
+    section_id: skills_expertise
+    content_type: "profile.skills"
+
+    ai_and_agentic_systems:
+      section_id: skills_ai_agentic
+      content_type: "profile.skills.ai_agentic"
+      tags: [llm, agents, multi_agent, prompt_engineering, evaluation]
+      capabilities:
+        - Expert in LLM engineering and top frameworks
+        - Architect of multi-agent reasoning systems, autonomous retrieval pipelines, and tool-use agents
+        - Designs evaluation rubrics, memory architectures, and spec-driven task loops for high-fidelity reasoning
+        - Deep expertise in prompt engineering, response validation, and tracing-based evaluation
+
+    rag_and_knowledge_systems:
+      section_id: skills_rag_knowledge
+      content_type: "profile.skills.rag_knowledge"
+      tags: [rag, retrieval, embeddings, semantic_search, document_chunking, knowledge_systems]
+      capabilities:
+        - Expert in RAG pipeline design with hybrid retrieval (semantic + symbolic)
+        - Skilled in document chunking strategies and metadata modeling
+        - Builds structured content corpora for domain-specific reasoning (investment, legal, technical)
+        - Designs evaluation frameworks for retrieval quality, faithfulness, and coverage
+
+    data_engineering:
+      section_id: skills_eng
+      content_type: "profile.skills.data_engineering"
+      tags: [python, devops, sql, data_science, data_engineering, automation]
+      capabilities:
+        - Python expert with focus on idiomatic, modular, and test-driven development
+        - Proficient in modern Python tooling (uv, Ruff, Pyright, pytest)
+        - DevOps and workflow automation specialist
+        - Skilled in data modeling (SQL + Pydantic) and schema design
+        - deep machine learning and data engineering expertise
+
+    financial_services_domain:
+      section_id: skills_financial_domain
+      content_type: "profile.skills.financial_domain"
+      tags: [quantitative_finance, private_equity, venture_capital, fund_admin, portfolio_intelligence]
+      capabilities:
+        - Deep exposure to quantitative investment, private equity, and venture capital
+        - Designs data models for fund administration, investment evaluation, and portfolio intelligence
+        - Expert in industry mapping, competitive landscaping, and AI-driven value creation plans
+
+    cross_functional_capabilities:
+      section_id: skills_cross_functional
+      content_type: "profile.skills.cross_functional"
+      tags: [product_strategy, technical_writing, mentorship, data_driven_decisions]
+      capabilities:
+        - AI product strategy: Scopes, prototypes, and defines roadmaps for internal AI platforms
+        - Technical writing: Produces clear, pedagogical guides and architectural specifications
+        - Leadership and mentorship: Coaches peers in structured problem solving and system design
+        - Data-driven decision design: Integrates analytical rigor with storytelling for AI adoption
+
+  strengths_passions_experiences:
+    section_id: strengths_passions_experiences
+    content_type: "profile.strengths_passions_experiences"
+    context: |
+      Will Bricker's professional identity organized into three dimensions: core strengths and values,
+      professional passions and interests, and key areas of experience. This framework provides a
+      holistic view of what drives him, what he values, and where he delivers impact.
+
+    strengths:
+      section_id: strengths
+      content_type: "profile.strengths_passions_experiences.strengths"
+      tags: [values, abilities, character, competencies]
+
+      values:
+        section_id: values
+        content_type: "profile.strengths_passions_experiences.strengths.values"
+        tags: [integrity, team_first, learning, impact]
+        items:
+          - Integrity
+          - Team first mentality
+          - Substance over style
+          - Learning first mentality
+          - Impact
+
+      abilities:
+        section_id: abilities
+        content_type: "profile.strengths_passions_experiences.strengths.abilities"
+        tags: [results_orientation, analytical_thinking, adaptability]
+        items:
+          - Results orientation
+          - Logical and analytical thinking
+          - Learning on the fly
+
+    passions:
+      section_id: passions
+      content_type: "profile.strengths_passions_experiences.passions"
+      tags: [ai, technology, innovation, business_value, problem_solving]
+      items:
+        - AI, Data & Technology
+        - Innovating & prototyping
+        - Building businesses and technology
+        - Delivery tangible business value
+        - White-space & 0â1
+        - Solving tough challenges in fast paced environments
+        - Helping others
+
+    experiences:
+      section_id: experiences
+      content_type: "profile.strengths_passions_experiences.experiences"
+      tags: [finance, business_strategy, ai_technology]
+
+      finance_investing:
+        section_id: finance_investing
+        content_type: "profile.strengths_passions_experiences.experiences.finance_investing"
+        tags: [investment, public_markets, private_markets, startups]
+        items:
+          - Investing in public and private markets, directly and via funds, buy-side and sell-side
+          - Investing and supporting early-stage startups
+          - Designing and implementing investment strategies
+
+      business_strategy:
+        section_id: business_strategy
+        content_type: "profile.strengths_passions_experiences.experiences.business_strategy"
+        tags: [operations, gtm, team_management]
+        items:
+          - Building, evolving, and overseeing business units, processes, products, and teams
+          - Formulating go-to-market motions and scaling sales and operations
+          - Managing cross-functional teams and initiatives
+
+      ai_technology:
+        section_id: ai_technology
+        content_type: "profile.strengths_passions_experiences.experiences.ai_technology"
+        tags: [ai_products, transformation, automation]
+        items:
+          - Designing and building AI and data-driven products for financial and non-financial applications
+          - Defining AI and technology transformation strategies
+          - Automating and augmenting manual work
+
+  professional_approach:
+    section_id: professional_approach
+    content_type: "profile.approach"
+
+    core_principles:
+      section_id: core_principles
+      content_type: "profile.approach.core_principles"
+      tags: [systems_thinking, mece, learning, iteration, ethics, production_first]
+      principles:
+        - label: Systemic Thinking
+          description: Views every challengeâtechnical or strategicâas a system of interacting components. Designs frameworks that make complexity manageable.
+        - label: Structure as Leverage
+          description: Builds clarity through MECE decomposition, deterministic IDs, and explicit schemas. Every artifact is auditable and composable.
+        - label: Learning-Centric Leadership
+          description: Teaches through design. Builds systems, guides, and playbooks that train teams to reasonânot just execute.
+        - label: Iterative Craftsmanship
+          description: Operates in tight feedback loops (reflect â plan â execute â review), emphasizing precision, clarity, and refinement.
+        - label: Ethical & Responsible AI
+          description: Advocates for transparent, interpretable, and responsibly deployed AI systems in regulated sectors.
+        - label: Production Orientation
+          description: Focuses on solutions that work in production, not just demos. Takes complex problems and turns them into products that scale.
+
+    working_style:
+      section_id: working_style
+      content_type: "profile.approach.working_style"
+      tags: [architect, educator, first_principles, communication, meta_process, empirical]
+      characteristics:
+        - label: Hybrid Architect-Educator
+          description: Designs scalable systems and teaches their use with equal depth
+        - label: First-Principles Thinker
+          description: Seeks root-cause clarity before acting; avoids cargo-cult practices
+        - label: Communicative Engineer
+          description: Writes clean prose and code; believes clarity is a moral duty in complex systems
+        - label: Meta-Process Designer
+          description: Improves not just deliverables but the processes that create them
+        - label: Empirically Driven
+          description: Tests, measures, and refines continuously, applying quality gates and validation loops
+
+    personality_assessments:
+      section_id: personality_assessments
+      content_type: "profile.approach.personality_assessments"
+      tags: [mbti, principles_you, estp, shaper]
+      assessments:
+        myers_briggs: ESTP
+        principles_you_archetype: Shaper
+        conflict_style: Problem Solver
+
+  signature_projects:
+    section_id: signature_projects
+    content_type: "profile.signature_projects"
+    tags: [portfolio_projects, simulation, rag, data_modeling, workflow_automation]
+    projects:
+      - name: PISA (Panel Intelligence & Simulation Agent)
+        content_type: "profile.signature_projects.item"
+        description: Multi-agent simulation replicating decision dynamics in tech-investment panels; integrates strategy, simulation, and explainability
+      - name: Agentic RAG Framework
+        content_type: "profile.signature_projects.item"
+        description: Hierarchical retrieval-augmented architecture supporting autonomous reasoning and document comprehension at scale
+      - name: VC Fund Data Model
+        content_type: "profile.signature_projects.item"
+        description: Robust relational schema for venture-fund entities, cashflows, and events, designed for analytical traceability
+      - name: AI-Dev Workflow Framework
+        content_type: "profile.signature_projects.item"
+        description: Spec-driven system for initializing Python AI projects with integrated hooks, logs, and MECE-aligned task scaffolding
+
+  value_proposition:
+    section_id: value_proposition
+    content_type: "profile.value_proposition"
+    tags: [unique_value, differentiators, impact]
+    tagline: "Will operates at the nexus of AI architecture, product strategy, and process design, bridging the gap between visionary ideas and real-world execution."
+    unique_differentiators:
+      - dimension: Technical Depth
+        capability: Can architect agentic and retrieval-augmented systems end-to-end
+      - dimension: Strategic Judgment
+        capability: Links AI investments to measurable business value
+      - dimension: Pedagogical Clarity
+        capability: Explains and teaches complex ideas to engineers, analysts, and executives alike
+    what_makes_will_unique:
+      - "Rare blend of elite quantitative finance background with cutting-edge AI engineering expertise"
+      - "Proven ability to operate from ideation to production"
+      - "Natural systems thinker who brings structure and clarity to ambiguous, complex problems"
+      - "Strong communicator who bridges technical and business stakeholders effectively"
+      - "Track record of delivering production-grade AI solutions that create measurable value"
+
+  career_objectives:
+    section_id: career_objectives
+    content_type: "profile.career_objectives"
+    tags: [career_goals, ideal_role, target_companies, motivation]
+    focus: Using AI to solve real business challenges with meaningful value delivery
+    motivation: Driven by passion for practical impact, not trends or hype
+    ideal_role_characteristics:
+      - Combines AI architecture with business strategy
+      - Bridges technical implementation and organizational impact
+      - Enables driving real impact through AI innovation
+      - Offers opportunity to build and scale production AI systems
+    ideal_team_characteristics:
+      - Shares excitement about practical AI applications
+      - Business-problem focused rather than technology-first
+      - Values depth and rigor over hype
+      - Collaborative and cross-functional
+    appeal_to_different_organizations:
+      section_id: appeal_by_org_type
+      content_type: "profile.career_objectives.appeal_by_org_type"
+      major_tech_companies:
+        content_type: "profile.career_objectives.appeal.major_tech_companies"
+        tags: [big_tech, internal_platforms, ai_infrastructure]
+        strengths:
+          - Proven capacity to design and scale internal AI platforms or developer-assist systems
+          - Deep comfort integrating AI/ML pipelines into product and infrastructure environments
+          - Strong interdisciplinary fluency connecting research, engineering, and product strategy
+          - Natural documentation and process builder who raises organizational clarity
+      ai_startups_and_llm_companies:
+        content_type: "profile.career_objectives.appeal.ai_startups_and_llm_companies"
+        tags: [startups, llm_companies, fast_paced, prototyping]
+        strengths:
+          - Can prototype, test, and deploy agentic and retrieval-augmented systems quickly
+          - Brings structured evaluation and instrumentation to fast-moving experimental codebases
+          - Operates as both architect and builder, reducing dependence on multiple specialized hires
+          - Communicates with technical precision and conceptual clarity
+      financial_services_firms:
+        content_type: "profile.career_objectives.appeal.financial_services_firms"
+        tags: [fintech, banks, hedge_funds, asset_management, regulated_industries]
+        strengths:
+          - Combines data modeling acumen with AI value-creation strategy
+          - Experienced in diligence, data infrastructure, and AI-driven operational leverage
+          - Understands regulated environments, data governance, and compliance sensitivities
+          - Bridges quantitative modeling, AI automation, and business storytelling
+
+  example_response_quotes:
+    section_id: example_response_quotes
+    content_type: "profile.quotes"
+    tags: [quotes, recommendations, praise]
+    quotes:
+      - "Will designs clarity into systems."
+      - "He codes like an architect and writes like an educator."
+      - "Give him ambiguity; he'll return a structured framework and a process to scale it."
+      - "The rare AI professional equally fluent in reasoning, rigor, and results."

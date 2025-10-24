@@ -1,0 +1,150 @@
+metadata:
+  title: "Will Bricker - Digital Resume"
+  description: "AI Strategy & Product Leadership | Financial Services Technology Expert"
+  author: "Will Bricker"
+  date: "2025-10-22"
+
+sections:
+  # Hero intro section
+  - id: hero-intro
+    type: narrative
+    heading: "Will Bricker"
+    markdown: |
+      # Will Bricker
+
+  # Hero tagline section
+  - id: hero-tagline
+    type: narrative
+    heading: ""
+    markdown: |
+      AI Strategy & Product Leadership | Financial Services Technology Expert
+
+      I'm a Strategic AI and business transformation leader with 10+ years of experience bridging elite quantitative investment (Bridgewater, J.P. Morgan), technology innovation, and AI product development.
+
+  # Current activities section
+  - id: current-activities
+    type: narrative
+    heading: "What I'm Up To"
+    markdown: |
+      - Helping businesses navigate the world of AI and find the right solutions for their unique needs
+      - **AI Projects**:
+        - Agentic RAG for VC documents
+        - MCP for RAG pipeline
+        - Standardized Agent toolkit
+
+  # About personal section
+  - id: about-personal
+    type: narrative
+    heading: "About Me"
+    markdown: |
+      At my core, I am a **problem solver** who thrives at the intersection of AI, finance, and business strategy.
+
+      My journey has evolved from managing portfolios at Bridgewater and J.P. Morgan to building AI solutions that help financial institutions work smarter. Here's what I bring to the table:
+
+      ### AI & Product Development
+
+      I've spent the past few years immersed in building practical AI solutionsâfrom LLM-powered research tools to automated investing. I love taking complex problems and turning them into products that actually work in production, not just in demos.
+
+      ### Financial Services Background
+
+      A decade in quantitative investing and venture capital taught me how financial institutions really operateâthe workflows, the pain points, the opportunities. This helps me build AI solutions that fit naturally into existing processes rather than forcing change for change's sake.
+
+      ### Business-First Thinking
+
+      Whether I'm coding a prototype or leading a cross-functional team, I always start with the business problem. I've learned that the best technology solutions come from deeply understanding what drives value and what gets in the way.
+
+      In the next stage of my career, I'm looking to work with teams that share my excitement about using AI to solve real business challengesânot because it's trendy, but because it is what love and where I can deliver meaningful value.
+
+  # Experience section
+  - id: about-experience
+    type: narrative
+    heading: "Experience"
+    markdown: |
+      **TL;DR**: 10 years of work experience in finance + AI, MBA from Berkeley
+
+      - **2 years** at JP Morgan helping run the Asset Management FICC Trading Group
+      - **4 years** at Bridgewater, managing portions of the investment group and doing research for the founder
+      - **~1 year** as interim COO of a pivoting startup
+      - **3+ years** at Hustle Fund, investing in pre-seed startups and building a data-driven investing platform
+      - **1 year** building AI solutions for private market funds
+      - **3 months** founding startup (Completed 'start', failed to complete 'up')
+
+  # Personality cards section (structured)
+  - id: about-personality
+    type: personality-cards
+    heading: "Personality & Work Style"
+    cards:
+      - title: "Myers Briggs"
+        value: "ESTP"
+      - title: "Principles Assessment"
+        value: "Shaper"
+      - title: "Conflict Style"
+        value: "Problem Solver"
+
+  # Content items section (structured)
+  - id: content-items
+    type: content-items
+    heading: "Content & Media"
+    items:
+      # Writing articles
+      - type: article
+        title: "Venture Returns and Portfolio Construction"
+        description: "Analysis of VC portfolio construction strategies"
+        url: "https://fate-bell-13d.notion.site/Venture-Returns-and-Portfolio-Construction-dce444c74c8c471e9ae3c68eeafb6566"
+
+      - type: article
+        title: "State of AI (May 2022)"
+        description: "Analysis of the state of AI"
+        url: "https://fate-bell-13d.notion.site/State-of-AI-May-2022-1fc5353485ca4982b9cdf66a52d0a342"
+
+      - type: article
+        title: "An Emerging VC's Tech Stack"
+        description: "Analysis of the tech stack of an emerging VC"
+        url: "https://medium.com/@willbricker/an-emerging-vcs-tech-stack-a-dive-into-hustle-fund-s-platform-fa4037bedc04"
+
+      # Media appearances
+      - type: video
+        title: "Koble Interview - Early Stage Venture Investing"
+        description: "Interview with Koble on early stage venture investing"
+        url: "https://www.linkedin.com/posts/guyconway_is-early-stage-venture-investing-an-artisan-activity-7021756744758349824-aT9_"
+
+      - type: podcast
+        title: "Equidam Podcast - The ROI of Venture Dollars"
+        description: "Podcast on the ROI of venture dollars"
+        url: "https://podcasts.apple.com/au/podcast/the-roi-of-venture-dollars-with-will-bricker-of-hustle-fund/id1674538647?i=1000616622590"
+
+      - type: podcast
+        title: "Associated Podcast - Will Bricker at Hustle Fund"
+        description: "Podcast on Will Bricker at Hustle Fund"
+        url: "https://creators.spotify.com/pod/profile/associated/episodes/Will-Bricker-at-Hustle-Fund-egc7n5"
+
+      # Portfolio items
+      - type: article
+        title: "Early Stage Startup Fundraising Guide"
+        description: "Guide to fundraising for early stage startups"
+        url: "https://fate-bell-13d.notion.site/Fundraising-Tips-V2-d8350eb4d3a7457f935a3e27b6fb8865"
+
+      - type: article
+        title: "Portfolio Construction Hub"
+        description: "Hub for portfolio construction strategies"
+        url: "https://fate-bell-13d.notion.site/Portfolio-Construction-Investing-Strategy-Hub-d31d7187286a4d73a09f84a0a776e576"
+
+      - type: article
+        title: "Will's Investment Learnings"
+        description: "Learnings from Will's investment experience"
+        url: "https://fate-bell-13d.notion.site/WB-s-Investment-Learnings-32671733946f4b7488a237b3269dae7b"
+
+  # Social links section (structured)
+  - id: contact
+    type: link-collection
+    heading: "Connect"
+    links:
+      - title: "Twitter"
+        url: "https://twitter.com/will_bricker"
+        icon: "Twitter"
+      - title: "LinkedIn"
+        url: "https://www.linkedin.com/in/willbricker3"
+        icon: "Linkedin"
+      - title: "Medium"
+        url: "https://medium.com/@willbricker"
+        icon: "PenSquare"
