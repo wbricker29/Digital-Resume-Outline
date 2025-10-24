@@ -1,4 +1,5 @@
 import reflex as rx
+from app.state import ResumeState
 
 
 def intersection_observer() -> rx.Component:
@@ -7,13 +8,16 @@ def intersection_observer() -> rx.Component:
             const observerOptions = {
                 root: null,
                 rootMargin: '0px',
-                threshold: 0.5 
+                threshold: 0.5
             };
 
             const observerCallback = (entries) => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
-                        reflex.state.set_active_section(entry.target.id)
+                        _reflex.call_event(
+                            "state.resume_state.set_active_section",
+                            { section_id: entry.target.id }
+                        );
                     }
                 });
             };

@@ -49,3 +49,4 @@ class ResumeState(rx.State):
         if message:
             self.messages.append(message)
             self.chat_input = ""
+            return rx.set_value("chat_input", "")
