@@ -2,7 +2,6 @@ import reflex as rx
 from app.state import ResumeState
 from app.components.sections import intro_section, about_section, artifacts_section
 from app.components.navigation import sticky_header
-from app.utils import intersection_observer
 
 
 def index() -> rx.Component:
@@ -15,7 +14,6 @@ def index() -> rx.Component:
             artifacts_section(),
             class_name="pt-[60px]",
         ),
-        on_mount=ResumeState.on_load_observers(),
         class_name="font-['Inter'] bg-white",
         style={"scroll-behavior": "smooth"},
     )
@@ -30,7 +28,6 @@ app = rx.App(
             href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",
             rel="stylesheet",
         ),
-        intersection_observer(),
     ],
 )
 app.add_page(index, title="Will Bricker - Digital Resume")

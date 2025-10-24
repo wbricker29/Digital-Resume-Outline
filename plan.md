@@ -43,7 +43,7 @@ All three phases successfully implemented with:
 - ✅ Three full-height sections with smooth scrolling
 - ✅ Dual-pane layouts (60/40 and 50/50 splits)
 - ✅ Interactive chat interface in intro section
-- ✅ Navigation tabs (Details/Artifacts)
+- ✅ Navigation tabs (Details/Artifacts) with manual click navigation
 - ✅ Complete content for all sections
 - ✅ External links with hover effects
 - ✅ Social media integration
@@ -52,9 +52,28 @@ All three phases successfully implemented with:
 
 ---
 
+## Future Enhancements
+
+### Navigation Improvements
+- [ ] Implement scroll-based navigation highlighting using intersection observer
+- [ ] Auto-update active tab when user scrolls to different sections
+- [ ] Add visual feedback for current section in viewport
+
+### AI Chat Integration
+- [ ] Connect chat interface to RAG backend
+- [ ] Implement AI responses for resume questions
+- [ ] Add chat history persistence
+
+### Content Enhancements
+- [ ] Replace placeholder links with actual URLs
+- [ ] Add real resume PDF file
+- [ ] Optimize images and media assets
+
+---
+
 ## Notes
 - Using teal as primary color with gray neutrals
 - Inter font family throughout
 - Smooth transitions and micro-interactions
 - All external links open in new tabs
-- Chat interface ready for RAG integration
+- Navigation currently works via manual tab clicks only (scroll-based highlighting deferred)
